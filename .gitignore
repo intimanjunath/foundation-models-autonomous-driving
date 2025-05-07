@@ -1,0 +1,30 @@
+# Compiled binaries
+/game_of_life
+/occupancy_grid_sim
+
+# Build directory
+/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE configs
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# CUDA profiling or logs
+*.nvvp
+*.ncu-rep
+
+# Backup/temporary files
+*~
+*.swp
+*.bak
+*.tmp

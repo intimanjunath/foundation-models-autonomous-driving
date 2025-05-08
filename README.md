@@ -27,7 +27,7 @@ Foundation Models have dramatically reshaped autonomous driving by transitioning
 ## 🎬 Video Explanation
 
 - **Watch the detailed video:**  
-  *(Insert YouTube Link here once uploaded)*
+  (https://youtu.be/m9U4_sSI3Rk)
 
 ---
 

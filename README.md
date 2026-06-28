@@ -108,3 +108,10 @@ gun
 ## Notes
 
 This is not a full autonomous-driving stack. It is a focused GPU simulation component that demonstrates how grid-based state updates can be accelerated and visualized. The core idea is transferable to occupancy-grid experiments, traffic-cell simulations, and fast environment-state prototypes.
+
+## Extension Ideas
+
+- Replace the cellular-automata rule with occupancy decay, obstacle propagation, or traffic-density transitions.
+- Add timing metrics around kernel launch, memory copies, and frame rendering to compare grid sizes.
+- Keep deterministic pattern loading as a regression tool when changing CUDA thread/block layout.
+- Use the renderer as an inspection surface, not as the source of truth; simulation state should stay in GPU/host buffers.
